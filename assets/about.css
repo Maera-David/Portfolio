@@ -294,20 +294,16 @@ li {
 /******* PAGE ABOUT ******/
 .container-about {
     border: 2px solid red;
+    width: 1600px;
 }
 
 .page-heading {
-    z-index: 5;
     overflow-y: hidden;
-    font-size: 16px;
     max-width: 900px;
-    line-height: 26px;
     position: relative;
     text-align: center;
     margin: 0 auto 60px;
     color: white;
-    font-family: 'Roboto', bold;
-    margin: auto;
     overflow-x: hidden;
 }
 
@@ -327,22 +323,25 @@ li {
 
 .article-heading {
     margin-left: 170px;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
-.img-heading {
-    margin-top: 50px;
+.article-heading2 {
+    margin-right: 170px;
+    margin-top: 40px;
 }
 
 .sub-subtitle {
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-family: 'Bangers';
 }
 
 .p-heading {
     color:white;
+    text-align: justify;
 }
-
 
 
 /* Media queries */
