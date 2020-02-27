@@ -13,6 +13,26 @@ html {
     color: #eee;
 }
 
+/* WIDTH */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* TRACK */
+::-webkit-scrollbar-track {
+    background: #2C3377;
+}
+
+/* HANDLE */
+::-webkit-scrollbar-thumb {
+    background: #565A80;
+}
+
+/* HANDLE ON HOVER */
+::-webkit-scrollbar-thumb:hover {
+    background: darkblue;
+}
+
 body {
     width: 100%;
     height: 100%;
