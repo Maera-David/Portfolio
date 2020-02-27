@@ -294,7 +294,8 @@ li {
 /******* PAGE ABOUT ******/
 .container-about {
     border: 2px solid red;
-    width: 1600px;
+    width: 1610px;
+    
 }
 
 .page-heading {
@@ -314,6 +315,7 @@ li {
     background: linear-gradient(to left, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 100px;
 }
 
 .subtitle-about {
