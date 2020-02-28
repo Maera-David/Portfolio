@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pµoppins');
 
 /* Start Global */
 * {
@@ -312,19 +313,16 @@ li {
     column-count: 3;
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
-    column-width: 33%; 
-}
-
-.gallery .pics {
+    column-width: 33%; }
+    .gallery .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease; }
     .gallery .animation {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); 
-}
+    transform: scale(1); }
     
-@media (max-width: 450px) {
+    @media (max-width: 450px) {
     .gallery {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -333,11 +331,11 @@ li {
     -moz-column-width: 100%;
     column-width: 100%;
     }
-}
+    }
     
-@media (max-width: 400px) {
+    @media (max-width: 400px) {
     .btn.filter {
     padding-left: 1.1rem;
     padding-right: 1.1rem;
     }
-}
+    }
