@@ -294,6 +294,10 @@ li {
 .fa-linkedin-in:hover {
     color: #5f58ff;
 }
+
+.fa-github:hover {
+    color: #7E59AD;
+}
 /* End About */
 
 /* Start Services */
