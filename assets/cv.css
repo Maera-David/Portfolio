@@ -1,0 +1,11 @@
+/****** START CV SECTION ******/
+.titre-cv {
+    background: linear-gradient(to left, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 125px;
+    font-size: 50px;
+    font-family: 'Ma Shan Zheng', serif;
+}
