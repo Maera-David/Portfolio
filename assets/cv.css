@@ -9,3 +9,13 @@
     font-size: 50px;
     font-family: 'Ma Shan Zheng', serif;
 }
+
+.container-cv {
+    display: flex;
+    justify-content: center;
+}
+
+.img-cv {
+    width: 50%;
+    margin-bottom: 20px;
+}
