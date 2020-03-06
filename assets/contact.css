@@ -16,13 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 75.5vh;
     font-family: 'Roboto', sans-serif;
-}
-
-.container-principal {
-    width: 100%;
-    margin: auto;
 }
 
 .container {
