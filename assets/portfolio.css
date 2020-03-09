@@ -115,7 +115,7 @@ ul {
 }
 
 .gallery li:nth-child(1) .front-side{
-    background-image: url('http://pre12.deviantart.net/f04f/th/pre/i/2015/281/c/e/virtus_pro_tribute_by_haryarti-d9cdvwy.jpg')
+    background-image: url('../images/projets/Safir.png');
 }
 
 .gallery li:nth-child(1) .loader {
@@ -132,11 +132,11 @@ ul {
 }
 
 .gallery li:nth-child(2) .front-side {
-    background-image: url('http://pre06.deviantart.net/f121/th/pre/i/2014/280/7/a/crystal_maiden_by_haryarti-d81xgfl.jpg')
+    background-image: url('../images/projets/acsResize.jpg')
 }
 
 .gallery li:nth-child(3) .front-side {
-    background-image: url('http://pre10.deviantart.net/3566/th/pre/i/2014/289/5/a/drow_ranger_by_haryarti-d83292f.jpg');
+    background-image: url('../images/projets/LilyLogo.png');
 }
 
 .gallery li:nth-child(3) .loader {
@@ -151,6 +151,42 @@ ul {
 .gallery li:nth-child(3) .text h3:after {
     background: #515a5a;
 }
+
+.gallery li:nth-child(4) .front-side{
+    background-image: url(../images/projets/YayBlock.jpg);
+}
+
+.gallery li:nth-child(4) .loader {
+    border-top-color: #f1c40f;
+    border-left-color: #f1c40f;
+}
+
+.gallery li:nth-child(4) .text h3 {
+    color: #f1c40f;
+}
+
+.gallery li:nth-child(4) .text h3:after {
+    background: #f7dc6f;
+}
+
+.gallery li:nth-child(5) .front-side {
+    background-image: url(../images/projets/ArrowProjet.jpg);
+}
+
+.gallery li:nth-child(5) .loader {
+    border-top-color: #1abc9c;
+    border-left-color: #1abc9c;
+}
+
+.gallery li:nth-child(5) .text h3 {
+    color: 1abc9c;
+}
+
+.gallery li:nth-child(5) .text h3:after {
+    background: #48c9b0;
+}
+
+
 
 .gallery .content {
     text-align: center;
@@ -219,28 +255,6 @@ ul {
     border: 4px solid transparent;
     border-top-color: #3498db;
     border-left-color: #3498db;
-}
-
-.arrow {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 200;
-    cursor: pointer;
-    color: #000;
-    font-size: 34px;
-    text-align: center;
-}
-
-.right {
-    right: 0;
-}
-
-.left {
-    left: 0;
 }
 
 @-webkit-keyframes load {
