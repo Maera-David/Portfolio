@@ -1,0 +1,113 @@
+<!--  Grid row -->
+  <div class="gallery" id="gallery">
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <div class="view">
+        <div class="view-overlay">
+        <a href="https://www.instagram.com/p/B9UQnK6IMgV/">
+          <img class="img-fluid" src="./images/projets/Safir.png" alt="Card image cap">
+          <div class="mask flex-center rgba-red-strong">
+            <p class="white-text">Strong overlay</p>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="#">
+        <img class="img-fluid" src="./images/projets/blueasyResize.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="https://maerad.promo-36.codeur.online/integrationACS/IntegrationBootstrap/">
+        <img class="img-fluid" src="./images/projets/acsResize.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <a href="https://irinap.promo-36.codeur.online/allocin--project/">
+        <img class="img-fluid" src="./images/projets/pachiMovies.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <a href="https://www.instagram.com/p/B9URaVrIGhh/">
+        <img class="img-fluid" src="./images/projets/CadeauIsaResize.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="https://maerad.promo-36.codeur.online/YayBlock/">
+        <img class="img-fluid" src="./images/projets/YayBlock.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+  <div class="gallery" id="gallery">
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <a href="https://www.instagram.com/p/B9URzPQI6Uy/">
+        <img class="img-fluid" src="./images/projets/LilyLogo.png" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="#">
+        <img class="img-fluid" src="./images/Coming Soon/ComingBigSoon (1).jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="#">
+        <img class="img-fluid" src="./images/Coming Soon/ComingBigSoon (1).jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+     <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <a href="https://www.instagram.com/p/B9UUHwPI9Ml/">
+        <img class="img-fluid" src="./images/PortraitPrez.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+      <a href="https://maerad.promo-36.codeur.online/ArrowGame/">
+        <img class="img-fluid" src="./images/projets/ArrowProjet.jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+      <a href="#">
+        <img class="img-fluid" src="./images/Coming Soon/ComingBigSoon (1).jpg" alt="Card image cap">
+      </a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
