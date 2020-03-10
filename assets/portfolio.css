@@ -37,15 +37,15 @@ ul {
 
 .gallery {
     list-style-type: none;
-    height: 100%;
     overflow: hidden;
-    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
 }
 
 .gallery li {
-    float: left;
-    height: 100%;
-    width: 320px;
+    height: 400px;
+    width: 33.33%;
     background: #2E4053;
 }
 
@@ -186,7 +186,56 @@ ul {
     background: #48c9b0;
 }
 
+.gallery li:nth-child(6) .front-side {
+    background-image: url('../images/PortraitPrez.jpg');
+}
 
+.gallery li:nth-child(6) .loader {
+    border-top-color: #e74c3c;
+    border-left-color: #e74c3c;
+}
+
+.gallery li:nth-child(6) .text h3 {
+    color: #e74c3c;
+}
+
+.gallery li:nth-child(6) .text h3:after {
+    background: #ec7063;
+}
+
+.gallery li:nth-child(7) .front-side {
+    background-image: url('../images/projets/pachiMovies.jpg');
+}
+
+.gallery li:nth-child(7) .loader {
+    border-top-color: #8e44ad;
+    border-left-color: #8e44ad;
+}
+
+.gallery li:nth-child(7) .text h3 {
+    color: #8e44ad;
+}
+
+.gallery li:nth-child(7) .text h3:after {
+    background: #a569bd;
+}
+
+.gallery li:nth-child(8) .front-side {
+    background: url('../images/projets/blueasyResize.jpg');
+}
+
+.gallery li:nth-child(8) .loader {
+    border-top-color: #f39c12;
+    border-left-color: #f39c12;
+}
+
+.gallery li:nth-child(8) .text h3 {
+    color: #f39c12;
+}
+
+.gallery li:nth-child(8) .text h3:after {
+    background: #f5b041;
+}
 
 .gallery .content {
     text-align: center;
