@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Open+sans";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 html {
     height: 100%;
@@ -29,6 +29,10 @@ ul {
     margin: auto;
 }
 
+h3 {
+    font-family: 'Bangers', cursive;
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -40,12 +44,14 @@ ul {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 80px;
     width: 100% !important;
 }
 
 .gallery li {
     height: 400px;
-    width: 33.33%;
+    width: 30%;
     background: #2E4053;
 }
 
@@ -221,7 +227,7 @@ ul {
 }
 
 .gallery li:nth-child(8) .front-side {
-    background: url('../images/projets/blueasyResize.jpg');
+    background: url('../images/projets/LogoHND.PNG');
 }
 
 .gallery li:nth-child(8) .loader {
@@ -273,8 +279,9 @@ ul {
 .gallery .content h3 {
     position: relative;
     color: #3498db;
-    font: normal 30px/1.25 'Open Sans';
-    margin-bottom: 25px;;
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 .gallery .content h2:after {
@@ -291,7 +298,7 @@ ul {
 .gallery .content p {
     margin: 10px 0;
     color: #d6dbdf;
-    font: normal 16px/1.25 'Open Sans';
+    font-family: 'Raleway', sans-serif;
 }
 
 .gallery .loader {
@@ -357,14 +364,6 @@ ul {
         background-size: cover;
     }
 
-    .landing-text h1 {
-        font-size: 15rem;
-    }
-
-    .landing-text h6 {
-        font-size: 1.7rem;
-    }
-
     .nav-list {
         flex-direction: column;
     }
@@ -375,43 +374,6 @@ ul {
 
     .nav-link {
         font-size: 4.5rem;
-    }
-
-    .about-heading h1 {
-        font-size: 8rem;
-    }
-
-    .section-heading h1 {
-        font-size: 3rem;
-    }
-
-    .about-details .nav-list {
-        flex-direction: initial;
-    }
-
-    .about-details li {
-        margin: 0 2rem;
-    }
-
-    .icon-container {
-        width: 7rem;
-        height: 7rem;
-    }
-
-    .icon-container i {
-        font-size: 4rem;
-    }
-
-    .timeline ul {
-        margin: 0 0 0 auto;
-    }
-
-    .timeline .date::before {
-        left: -20rem;
-    }
-
-    .timeline .date::after {
-        left: -5.9rem;
     }
 }
 /******* END MEDIA QUERIES ******/
