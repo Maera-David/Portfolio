@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-html {
-    height: 100%;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 .titre-gallery {
     background: linear-gradient(to left, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -356,24 +346,3 @@ h3 {
       opacity: 0;
     }
   }
-  
-  /******* MEDIA QUERIES *******/
-@media all {
-    body {
-        background: url("../images/sitebg.jpg") no-repeat center fixed;
-        background-size: cover;
-    }
-
-    .nav-list {
-        flex-direction: column;
-    }
-
-    li {
-        margin: 2rem 0;
-    }
-
-    .nav-link {
-        font-size: 4.5rem;
-    }
-}
-/******* END MEDIA QUERIES ******/
