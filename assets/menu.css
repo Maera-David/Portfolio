@@ -372,4 +372,14 @@ li {
         right: 2rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    /* menu issues by gab */
+    .top-nav{
+        background-color: unset;
+    }
+    .top-nav.open{
+        background-color: #16162d;
+    }
+}
 /******* END MEDIA QUERIES ******/
