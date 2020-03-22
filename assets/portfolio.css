@@ -11,338 +11,78 @@
     font-family: 'Ma Shan Zheng', serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: auto;
-}
-
-h3 {
-    font-family: 'Bangers', cursive;
-}
-
-.container {
-    height: 100%;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-
-.gallery {
-    list-style-type: none;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 80px;
-    width: 100% !important;
-}
-
-.gallery li {
-    height: 400px;
-    width: 30%;
-    background: #2E4053;
-}
-
-.gallery .flip {
-    height: 100%;
-    width: 100%;
+.section-heading {
     position: relative;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-perspective: 2000px;
-    -moz-perspective: 2000px;
-    perspective: 2000px;
+    display: block;
+    margin-bottom: 100px;
 }
 
-.gallery li:hover .front-side {
-    opacity: 0;
-    -webkit-transform: rotateY(100deg);
-    -moz-transform: rotateY(100deg);
-    transform: rotateY(100deg);
+.section-heading::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(56, 65, 71, 0.5);
+    width: 1px;
+    height: 50px;
+    top: 53px;
+    border-radius: 8px;
 }
 
-.gallery li:hover .back-side {
-    background: #000;
-    opacity: 1;
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+.heading-title {
+    font-family: 'Playfair Display SC', sans-serif;
+    text-transform: uppercase;
+    color: #384147;
+    font-size: 22px;
 }
 
-.gallery .front-side,
-.gallery .back-side {
+.lightbox-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.light-content img {
+    transition: transform 2s;
+}
+
+.lightbox-content:hover img {
+    transform: scale(1.2);
+}
+
+.lightbox-content a::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: transform 0.4s ease-out, opacity 0.3s ease-out;
-    -moz-transition: transform 0.4s ease-out, opacity 0.3s ease-out;
-    transition: transform 0.4s ease-out, opacity 0.3s ease-out;
+    transition: background-color .5s;
 }
 
-.gallery .front-side {
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+.lightbox-content a:hover::before {
+    background-color: rgba(0, 0, 0, .7); 
 }
 
-.gallery .back-side {
-    opacity: 0;
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-.gallery .back-side > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.gallery li:nth-child(1) .front-side{
-    background-image: url('../images/projets/Safir.png');
-}
-
-.gallery li:nth-child(1) .loader {
-    border-top-color: #f39c12;
-    border-left-color: #f39c12;
-}
-
-.gallery li:nth-child(1) .text h3 {
-    color: #f39c12;
-}
-
-.gallery li:nth-child(1) .text h3:after {
-    background: #f5b041;
-}
-
-.gallery li:nth-child(2) .front-side {
-    background-image: url('../images/projets/acsResize.jpg')
-}
-
-.gallery li:nth-child(3) .front-side {
-    background-image: url('../images/projets/LilyLogo.png');
-}
-
-.gallery li:nth-child(3) .loader {
-    border-top-color: #424949;
-    border-left-color: #424949;
-}
-
-.gallery li:nth-child(3) .text h3 {
-    color: #424949;
-}
-
-.gallery li:nth-child(3) .text h3:after {
-    background: #515a5a;
-}
-
-.gallery li:nth-child(4) .front-side{
-    background-image: url(../images/projets/YayBlock.jpg);
-}
-
-.gallery li:nth-child(4) .loader {
-    border-top-color: #f1c40f;
-    border-left-color: #f1c40f;
-}
-
-.gallery li:nth-child(4) .text h3 {
-    color: #f1c40f;
-}
-
-.gallery li:nth-child(4) .text h3:after {
-    background: #f7dc6f;
-}
-
-.gallery li:nth-child(5) .front-side {
-    background-image: url(../images/projets/ArrowProjet.jpg);
-}
-
-.gallery li:nth-child(5) .loader {
-    border-top-color: #1abc9c;
-    border-left-color: #1abc9c;
-}
-
-.gallery li:nth-child(5) .text h3 {
-    color: 1abc9c;
-}
-
-.gallery li:nth-child(5) .text h3:after {
-    background: #48c9b0;
-}
-
-.gallery li:nth-child(6) .front-side {
-    background-image: url('../images/PortraitPrez.jpg');
-}
-
-.gallery li:nth-child(6) .loader {
-    border-top-color: #e74c3c;
-    border-left-color: #e74c3c;
-}
-
-.gallery li:nth-child(6) .text h3 {
-    color: #e74c3c;
-}
-
-.gallery li:nth-child(6) .text h3:after {
-    background: #ec7063;
-}
-
-.gallery li:nth-child(7) .front-side {
-    background-image: url('../images/projets/pachiMovies.jpg');
-}
-
-.gallery li:nth-child(7) .loader {
-    border-top-color: #8e44ad;
-    border-left-color: #8e44ad;
-}
-
-.gallery li:nth-child(7) .text h3 {
-    color: #8e44ad;
-}
-
-.gallery li:nth-child(7) .text h3:after {
-    background: #a569bd;
-}
-
-.gallery li:nth-child(8) .front-side {
-    background: url('../images/projets/LogoHND.PNG');
-}
-
-.gallery li:nth-child(8) .loader {
-    border-top-color: #f39c12;
-    border-left-color: #f39c12;
-}
-
-.gallery li:nth-child(8) .text h3 {
-    color: #f39c12;
-}
-
-.gallery li:nth-child(8) .text h3:after {
-    background: #f5b041;
-}
-
-.gallery .content {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 25px 20px;
-}
-
-.gallery li:hover .text {
-    opacity: 1;
-    visibility: visible;
-    max-height: 2000px;
-    -webkit-transition: opacity .3s ease-in .5s, max-height .1s ease .5s;
-    -moz-transition: opacity .3s ease-in .5s, max-height .1s ease .5s;
-    transition: opacity .3s ease-in .5s, max-height .1s ease .5s;
-}
-
-.gallery li:hover .loader {
-    opacity: 1;
-    visibility: visible;
-    -webkit-animation: hide .1s ease-in-out .4s forwards, load .75s infinite;
-    -moz-animation: hide .1s ease-in-out .4s forwards, load .75s infinite;
-    animation: hide .1s ease-in-out .4s forwards, load .75s infinite;
-}
-
-.gallery .text {
-    opacity: 0;
-    visibility: hidden;
-    max-height: 0;
-}
-
-.gallery .content h3 {
-    position: relative;
-    color: #3498db;
-    font-family: 'Bangers', cursive;
-    font-size: 24px;
-    margin-bottom: 25px;
-}
-
-.gallery .content h2:after {
-    content: '';
+/* .lightbox-content a::after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00e";
+    font-weight: 600;
     position: absolute;
-    width: 50px;
-    height: 3px;
-    bottom: -10px;
+    top: 50%;
     left: 50%;
-    margin-left: -25px;
-    background: #85c1e9;
-}
-
-.gallery .content p {
-    margin: 10px 0;
-    color: #d6dbdf;
-    font-family: 'Raleway', sans-serif;
-}
-
-.gallery .loader {
+    transform: (-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    z-index: 101;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
     opacity: 0;
-    visibility: hidden;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: auto;
-    border: 4px solid transparent;
-    border-top-color: #3498db;
-    border-left-color: #3498db;
-}
+    transition: opacity .5s;
+} */
 
-@-webkit-keyframes load {
-    0% {
-      -webkit-transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-    }
-  }
-  @-moz-keyframes load {
-    0% {
-      -moz-transform: rotate(0deg);
-    }
-    100% {
-      -moz-transform: rotate(360deg);
-    }
-  }
-  @keyframes load {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @-webkit-keyframes hide {
-    100% {
-      visibility: hidden;
-      opacity: 0;
-    }
-  }
-  @-moz-keyframes hide {
-    100% {
-      visibility: hidden;
-      opacity: 0;
-    }
-  }
-  @keyframes hide {
-    100% {
-      visibility: hidden;
-      opacity: 0;
-    }
-  }
+.lightbox-content a:hover::after {
+    opacity: .5;
+}

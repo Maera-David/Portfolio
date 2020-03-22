@@ -208,6 +208,10 @@ li {
 /****** END MENU ******/
 
 /******* START FOOTER ******/
+footer {
+    position: fixed;
+}
+
 .copyright {
     color: white;
     width: 100%;
