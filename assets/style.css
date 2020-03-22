@@ -111,7 +111,7 @@ header {
     padding: 2rem;
 }
 
-.skill h1 {
+.skill h3 {
     text-transform: uppercase;
     letter-spacing: 2px; 
     margin: 2rem -2px 2rem 0;
@@ -196,7 +196,7 @@ header {
     width: 70%;
 }
 
-.timeline h1 {
+.timeline h2 {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
