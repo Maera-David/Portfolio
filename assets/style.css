@@ -242,3 +242,26 @@ header {
     background-color: #313534;
 }
 /******* END TIMELINE ******/
+/* media */
+
+@media screen and (max-width: 500px){
+    .landing-text h1{
+        font-size: 13rem;
+    }
+
+    .about-details{
+        max-width: 100%;
+    }
+
+    .about-details li {
+        margin: 0 7px;
+    }
+
+    .about-heading h1{
+        font-size: 8rem;
+    }
+    
+    .profile-img{
+        max-width: 100%;
+    }
+}
