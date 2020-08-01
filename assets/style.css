@@ -226,7 +226,7 @@ header {
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -21rem;
+    left: -25rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
@@ -263,5 +263,20 @@ header {
     
     .profile-img{
         max-width: 100%;
+    }
+
+    .timeline .date::before, .timeline .date::after {
+        position: absolute;
+        display: block;
+        top: 45%;
+        transform: translateY(-50%) rotate(-90deg) translateX(-20%);
+    }
+
+    .timeline .date::before {
+        content: attr(data-date);
+        left: -17rem;
+        text-align: right;
+        min-width: 12rem;
+        font-size: 1.5rem;
     }
 }

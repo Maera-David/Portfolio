@@ -1,4 +1,4 @@
-var Gallery = (function() {
+/*var Gallery = (function() {
     var colors = [
       "#34495E",
       "#2E4053",
@@ -121,4 +121,4 @@ var Gallery = (function() {
     document.querySelector(".container").style.overflowX = "scroll";
     document.querySelector("#nav-right").style.display = "none";
     document.querySelector("#nav-left").style.display = "none";
-  }
+  }*/
